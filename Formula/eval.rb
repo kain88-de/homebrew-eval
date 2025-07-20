@@ -1,8 +1,8 @@
 class Eval < Formula
   desc "A CLI tool for employee reviews with automatic evidence collection"
   homepage "https://github.com/kain88-de/reviewr"
-  url "https://github.com/kain88-de/reviewr/releases/download/v0.1.14/reviewr-x86_64-unknown-linux-gnu.tar.gz"
-  sha256 "2dfc26fc7f2e1f0f504be157e1dcdef3fe8cad121baa72ac99319ad94660c257"
+  url "https://github.com/kain88-de/reviewr/releases/download/v0.1.15/reviewr-x86_64-unknown-linux-gnu.tar.gz"
+  sha256 "1f08e5dd940b9057699c1253b620c981dd9498f4b966efeec8182488a5d94a64"
   license "MIT"
 
   def install
