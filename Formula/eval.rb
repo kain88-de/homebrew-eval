@@ -1,14 +1,12 @@
 class Eval < Formula
   desc "A CLI tool for employee evaluations with automatic evidence collection"
   homepage "https://github.com/kain88-de/eval"
-  url "https://github.com/kain88-de/eval/archive/v0.1.10.tar.gz"
-  sha256 "47dc141fdab15c3703ccb0063b3f77d299fc1cd2425ab830258a2d023275c93b"
+  url "https://github.com/kain88-de/eval/releases/download/v0.1.10/eval-x86_64-unknown-linux-gnu.tar.gz"
+  sha256 "a3bfb6df4b24a5e0e70f1b27d9e72447505905a767729491db0749d16295f9f2"
   license "MIT"
-  
-  depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
+    bin.install "eval"
   end
 
   test do
